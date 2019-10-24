@@ -1,6 +1,7 @@
 var config = require("../../nightwatch.conf.js");
 
 module.exports = {
+  '@tags': ['google'],
   Google: function(browser) {
     browser
       .url("https://www.google.com")
